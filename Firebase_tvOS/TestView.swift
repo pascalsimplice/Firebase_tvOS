@@ -9,7 +9,5 @@ import Foundation
 import Firebase
 
 class TestView: UIView {
-    func pascal() {
-        FirebaseApp.app()
-    }
+    
 }
