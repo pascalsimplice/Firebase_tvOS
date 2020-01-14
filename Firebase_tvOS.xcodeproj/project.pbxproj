@@ -102,9 +102,9 @@
 			buildConfigurationList = C1C2A5C223CE131500365790 /* Build configuration list for PBXNativeTarget "Firebase_tvOS" */;
 			buildPhases = (
 				484BEB9250F593AB25661E12 /* [CP] Check Pods Manifest.lock */,
-				C1C2A5B523CE131500365790 /* Headers */,
 				C1C2A5B623CE131500365790 /* Sources */,
 				C1C2A5B723CE131500365790 /* Frameworks */,
+				C1C2A5B523CE131500365790 /* Headers */,
 				C1C2A5B823CE131500365790 /* Resources */,
 				7888C091398BFC29F31816A8 /* [CP] Copy Pods Resources */,
 			);
