@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C16D9F0B23CE4E6A007FE9C5"
-               BuildableName = "libFirebase_tvOS.a"
+               BlueprintIdentifier = "C16D9F1723CE5485007FE9C5"
+               BuildableName = "Firebase_tvOS.framework"
                BlueprintName = "Firebase_tvOS"
                ReferencedContainer = "container:Firebase_tvOS.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C16D9F0B23CE4E6A007FE9C5"
-            BuildableName = "libFirebase_tvOS.a"
+            BlueprintIdentifier = "C16D9F1723CE5485007FE9C5"
+            BuildableName = "Firebase_tvOS.framework"
             BlueprintName = "Firebase_tvOS"
             ReferencedContainer = "container:Firebase_tvOS.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C16D9F0B23CE4E6A007FE9C5"
-            BuildableName = "libFirebase_tvOS.a"
+            BlueprintIdentifier = "C16D9F1723CE5485007FE9C5"
+            BuildableName = "Firebase_tvOS.framework"
             BlueprintName = "Firebase_tvOS"
             ReferencedContainer = "container:Firebase_tvOS.xcodeproj">
          </BuildableReference>
