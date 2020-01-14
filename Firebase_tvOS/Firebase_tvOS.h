@@ -14,5 +14,5 @@ FOUNDATION_EXPORT double Firebase_tvOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char Firebase_tvOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Firebase_tvOS/PublicHeader.h>
-
+#import <Firebase_tvOS/PublicHeader.h>
 
