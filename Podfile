@@ -6,6 +6,7 @@ target 'Firebase_tvOS' do
     #use_frameworks!
 
     # Pods for tvOSSample
+    pod 'Firebase/Analytics'
     pod 'Firebase/ABTesting'
     pod 'Firebase/Auth'
     pod 'Firebase/Database'

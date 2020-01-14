@@ -167,9 +167,14 @@ PODS:
   - Firebase/ABTesting (6.13.0):
     - Firebase/CoreOnly
     - FirebaseABTesting (~> 3.1.2)
+  - Firebase/Analytics (6.13.0):
+    - Firebase/Core
   - Firebase/Auth (6.13.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 6.4.0)
+  - Firebase/Core (6.13.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.1.6)
   - Firebase/CoreOnly (6.13.0):
     - FirebaseCore (= 6.4.0)
   - Firebase/Database (6.13.0):
@@ -307,6 +312,7 @@ PODS:
 
 DEPENDENCIES:
   - Firebase/ABTesting
+  - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Database
   - Firebase/Firestore
@@ -372,6 +378,6 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
 
-PODFILE CHECKSUM: f914f895b98c75ee42ea13dbec3a61e8052caa43
+PODFILE CHECKSUM: 7cd8355aea888b62b18f8b872306f40bf0ddd157
 
 COCOAPODS: 1.8.4
