@@ -10,6 +10,7 @@
 		B4B4DC23A59C1B128FCD4530 /* libPods-Firebase_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF157314595693FBB51836A /* libPods-Firebase_tvOS.a */; };
 		C16D9F1C23CE5485007FE9C5 /* Firebase_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C16D9F1A23CE5485007FE9C5 /* Firebase_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C16D9F2023CE54A0007FE9C5 /* Firebase_tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D9F0E23CE4E6A007FE9C5 /* Firebase_tvOS.swift */; };
+		C1C59D4123CFDC6300A8EB99 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C59D4023CFDBF200A8EB99 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C16D9F1823CE5485007FE9C5 /* Firebase_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Firebase_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16D9F1A23CE5485007FE9C5 /* Firebase_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase_tvOS.h; sourceTree = "<group>"; };
 		C16D9F1B23CE5485007FE9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C59D4023CFDBF200A8EB99 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				C16D9F0E23CE4E6A007FE9C5 /* Firebase_tvOS.swift */,
 				C16D9F1A23CE5485007FE9C5 /* Firebase_tvOS.h */,
 				C16D9F1B23CE5485007FE9C5 /* Info.plist */,
+				C1C59D4023CFDBF200A8EB99 /* PublicHeader.h */,
 			);
 			path = Firebase_tvOS;
 			sourceTree = "<group>";
@@ -86,6 +89,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C59D4123CFDC6300A8EB99 /* PublicHeader.h in Headers */,
 				C16D9F1C23CE5485007FE9C5 /* Firebase_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
