@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B4B4DC23A59C1B128FCD4530 /* libPods-Firebase_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF157314595693FBB51836A /* libPods-Firebase_tvOS.a */; };
 		C16D9F1C23CE5485007FE9C5 /* Firebase_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C16D9F1A23CE5485007FE9C5 /* Firebase_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C16D9F2023CE54A0007FE9C5 /* Firebase_tvOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16D9F0E23CE4E6A007FE9C5 /* Firebase_tvOS.swift */; };
+		C1905F6823CFB8070077A90C /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1905F6723CFB7BF0077A90C /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C16D9F1823CE5485007FE9C5 /* Firebase_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Firebase_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16D9F1A23CE5485007FE9C5 /* Firebase_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase_tvOS.h; sourceTree = "<group>"; };
 		C16D9F1B23CE5485007FE9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1905F6723CFB7BF0077A90C /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				C16D9F0E23CE4E6A007FE9C5 /* Firebase_tvOS.swift */,
 				C16D9F1A23CE5485007FE9C5 /* Firebase_tvOS.h */,
 				C16D9F1B23CE5485007FE9C5 /* Info.plist */,
+				C1905F6723CFB7BF0077A90C /* PublicHeader.h */,
 			);
 			path = Firebase_tvOS;
 			sourceTree = "<group>";
@@ -87,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C16D9F1C23CE5485007FE9C5 /* Firebase_tvOS.h in Headers */,
+				C1905F6823CFB8070077A90C /* PublicHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +106,6 @@
 				C16D9F1423CE5485007FE9C5 /* Sources */,
 				C16D9F1523CE5485007FE9C5 /* Frameworks */,
 				C16D9F1623CE5485007FE9C5 /* Resources */,
-				1C728AAFC28BFD3F04EAA641 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,23 +158,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C728AAFC28BFD3F04EAA641 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E726608AE7A24D247B2B78AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,6 +263,20 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FirebaseCoreDiagnostics\"",
+					"-l\"GoogleDataTransport\"",
+					"-l\"GoogleDataTransportCCTSupport\"",
+					"-l\"GoogleUtilities\"",
+					"-l\"nanopb\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.massive.Firebase-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
@@ -353,6 +353,20 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FirebaseCoreDiagnostics\"",
+					"-l\"GoogleDataTransport\"",
+					"-l\"GoogleDataTransportCCTSupport\"",
+					"-l\"GoogleUtilities\"",
+					"-l\"nanopb\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.massive.Firebase-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
@@ -371,12 +385,14 @@
 		C1AEC57A23CE11E30072B8CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_LDFLAGS = "$(inheted)";
 			};
 			name = Debug;
 		};
 		C1AEC57B23CE11E30072B8CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				OTHER_LDFLAGS = "$(inheted)";
 			};
 			name = Release;
 		};

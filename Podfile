@@ -7,13 +7,7 @@ target 'Firebase_tvOS' do
 
     # Pods for tvOSSample
     pod 'Firebase/Analytics'
-    pod 'Firebase/ABTesting'
-    pod 'Firebase/Auth'
-    pod 'Firebase/Database'
-    pod 'Firebase/Firestore'
-    pod 'Firebase/Functions'
-    pod 'Firebase/Messaging'
-    pod 'Firebase/RemoteConfig'
-    pod 'Firebase/Storage'
 
 end
+
+
