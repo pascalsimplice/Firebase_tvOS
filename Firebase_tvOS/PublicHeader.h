@@ -8,6 +8,6 @@
 #ifndef PublicHeader_h
 #define PublicHeader_h
 
-#import "Firebase.h"
+#import <Firebase/Firebase.h>
 
 #endif /* PublicHeader_h */
