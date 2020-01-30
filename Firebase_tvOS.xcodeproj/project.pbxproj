@@ -106,7 +106,6 @@
 				C16D9F1423CE5485007FE9C5 /* Sources */,
 				C16D9F1523CE5485007FE9C5 /* Frameworks */,
 				C16D9F1623CE5485007FE9C5 /* Resources */,
-				3F9A3B6AE4D2002AC12EE48E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,23 +158,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3F9A3B6AE4D2002AC12EE48E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Firebase_tvOS/Pods-Firebase_tvOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E726608AE7A24D247B2B78AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
