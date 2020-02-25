@@ -6,7 +6,9 @@ target 'Firebase_tvOS' do
     #use_frameworks!
 
     # Pods for tvOSSample
+    pod 'Firebase'
     pod 'Firebase/Performance'
+    pod 'Firebase/RemoteConfig'
 
 end
 
